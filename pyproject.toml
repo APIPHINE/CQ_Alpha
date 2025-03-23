@@ -1,0 +1,17 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "fitz>=0.0.1.dev2",
+    "flask>=3.1.0",
+    "layoutparser>=0.3.4",
+    "loguru>=0.7.0",
+    "numpy>=1.24.0",
+    "opencv-python>=4.8.0",
+    "pillow>=10.0.0",
+    "pymupdf>=1.21.1",
+    "pytesseract>=0.3.10",
+    "pyyaml>=6.0.1",
+]

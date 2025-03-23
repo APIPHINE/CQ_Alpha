@@ -1,0 +1,30 @@
+# Core Dependencies
+numpy>=1.21.0
+pillow>=9.0.0
+loguru>=0.6.0
+typing-extensions>=4.0.0
+
+# Web Framework
+flask>=2.0.0
+flask-cors>=3.0.0
+werkzeug>=2.0.0
+
+# Layout & Computer Vision
+layoutparser>=0.3.4
+opencv-python>=4.6.0
+scikit-image>=0.19.0
+detectron2-cpu>=0.6  # or detectron2-gpu for CUDA support
+
+# PDF Processing
+pymupdf>=1.19.0
+pdf2image>=1.16.0  # Requires poppler-utils
+python-poppler>=0.3.0
+
+# OCR Engine
+pytesseract>=0.3.8  # Requires tesseract-ocr
+
+# Deep Learning
+torch>=1.10.0
+torchvision>=0.11.0
+
+#
